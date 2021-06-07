@@ -1,0 +1,4 @@
+enum TargetType {
+  color,
+  number,
+}
