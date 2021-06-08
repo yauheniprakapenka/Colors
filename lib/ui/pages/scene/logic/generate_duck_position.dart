@@ -1,4 +1,4 @@
-part of '../home.dart';
+part of '../scene.dart';
 
 Positioned _generateDuckPosition(BuildContext context, Widget child) {
   final random = Random();

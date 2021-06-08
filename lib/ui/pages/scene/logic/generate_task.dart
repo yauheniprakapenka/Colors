@@ -1,4 +1,4 @@
-part of '../home.dart';
+part of '../scene.dart';
 
 CurrentTask _generateTask() {
   final random = Random();
@@ -7,6 +7,6 @@ CurrentTask _generateTask() {
 
   return CurrentTask(
     taskIndex: random.nextInt(taskListLength),
-    type: TargetType.values[random.nextInt(targetTyleLength)],
+    targetType: TargetType.values[random.nextInt(targetTyleLength)],
   );
 }

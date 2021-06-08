@@ -1,5 +1,5 @@
 class Styles {
-  static const topPadding = 16.0;
+  static const topPadding = 60.0;
   static const leftPadding = 16.0;
   static const rightPadding = 16.0;
   static const bottomPadding = 16.0;

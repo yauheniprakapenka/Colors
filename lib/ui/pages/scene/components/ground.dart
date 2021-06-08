@@ -1,4 +1,4 @@
-part of '../home.dart';
+part of '../scene.dart';
 
 Widget _buildGround(BuildContext context) {
   return Positioned(
